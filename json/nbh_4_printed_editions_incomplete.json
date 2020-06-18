@@ -1,0 +1,52 @@
+{
+"Brucheion_cex_folder_abs_path": "/Users/tyler/Git/Brucheion_TGN_experimental/cex",
+"cex_output_fn": "nbh_4_printed_editions_incomplete.cex",
+"port_num": "7000",
+
+"input_folder_abs_path": "/Users/tyler/Dropbox/Documents/NBh_Project/Brucheion_workspace/cte2cex/tmp/input_cte",
+"output_folder_abs_path": "/Users/tyler/Dropbox/Documents/NBh_Project/Brucheion_workspace/cte2cex/tmp/output_cex",
+
+"input_files_individual_abs_paths": [
+
+"/Users/tyler/Dropbox/Project_related_files/NBh_4/Transcripts/proofread/Transcript_D1E_NBh_4.cte",
+
+"/Users/tyler/Dropbox/Project_related_files/NBh_4/Transcripts/proofread_Printed_Editions/Transcript_C1E_NBh_4.cte",
+"/Users/tyler/Dropbox/Project_related_files/NBh_4/Transcripts/proofread_Printed_Editions/Transcript_C7E_NBh_4.cte",
+"/Users/tyler/Dropbox/Project_related_files/NBh_4/Transcripts/proofread_Printed_Editions/Transcript_P1E_NBh_4.cte",
+"/Users/tyler/Dropbox/Project_related_files/NBh_4/Transcripts/proofread_Printed_Editions/Transcript_V2E_NBh_4.cte",
+"/Users/tyler/Dropbox/Project_related_files/NBh_4/Transcripts/proofread_Printed_Editions/Transcript_V3E_NBh_4.cte"
+
+],
+
+"cex_catalog_info": [
+"urn:cts:sktlit:skt0001.nyaya002.D1E:#adhyāya.āhnika.sūtra#Nyāya#Nyāyabhāṣya#D1E##true#san",
+
+"urn:cts:sktlit:skt0001.nyaya002.C1E:#adhyāya.āhnika.sūtra#Nyāya#Nyāyabhāṣya#C1E##true#san",
+"urn:cts:sktlit:skt0001.nyaya002.C7E:#adhyāya.āhnika.sūtra#Nyāya#Nyāyabhāṣya#C7E##true#san",
+"urn:cts:sktlit:skt0001.nyaya002.P1E:#adhyāya.āhnika.sūtra#Nyāya#Nyāyabhāṣya#P1E##true#san",
+"urn:cts:sktlit:skt0001.nyaya002.V2E:#adhyāya.āhnika.sūtra#Nyāya#Nyāyabhāṣya#V2E##true#san",
+"urn:cts:sktlit:skt0001.nyaya002.V2E:#adhyāya.āhnika.sūtra#Nyāya#Nyāyabhāṣya#V3E##true#san"
+
+],
+
+"base_protocol_namespace_workPrefix": "urn:cts:sktlit:skt0001.nyaya002.",
+"base_protocol_imageArchiveName": "urn:cite2:nbh:",
+"relations_verb": "urn:cite2:dse:verbs.v1:appearsOn:",
+
+"siglum_to_sliced_img_fn_abbrv": {
+"D1E":"D1E",
+"C1E":"C1E", "C5E":"C5E", "C7E":"C7E", "P1E":"P1E", "V2E":"V2E", "V3E":"V3E"
+},
+
+"witnesses_with_negatives": [],
+
+"regex_replacements_fn": "regex_replacements.py",
+
+"destroy_zero_space_word_separator": true,
+
+"browser_choice": "chrome",
+
+"renormalize": true,
+
+"git_push_changes": false
+}

@@ -1,0 +1,42 @@
+{
+"Brucheion_cex_folder_abs_path": "/Users/tyler/Git/Brucheion_TGN_experimental/cex",
+"cex_output_fn": "nbh_3_jaisalmer.cex",
+"port_num": "7000",
+
+"input_folder_abs_path": "/Users/tyler/Dropbox/Documents/NBh_Project/Brucheion_workspace/cte2cex/tmp/input_cte",
+"output_folder_abs_path": "/Users/tyler/Dropbox/Documents/NBh_Project/Brucheion_workspace/cte2cex/tmp/output_cex",
+
+"input_files_individual_abs_paths": [
+
+"/Users/tyler/Dropbox/Project_related_files/NBh_3/01_Complete_MS_Transcripts_NBh_3/Transcript_J1D_NBh_3.cte",
+"/Users/tyler/Dropbox/Project_related_files/NBh_3/01_Complete_MS_Transcripts_NBh_3/Transcript_J2D_NBh_3.cte",
+"/Users/tyler/Dropbox/Project_related_files/NV_Jaisalmer/Transcripts/Transcript_J3D_NV_3.cte"
+
+],
+
+"cex_catalog_info": [
+"urn:cts:sktlit:skt0001.nyaya002.J1D:#adhyāya.āhnika.sūtra#Nyāya#Nyāyabhāṣya#J1D##true#san",
+"urn:cts:sktlit:skt0001.nyaya002.J2D:#adhyāya.āhnika.sūtra#Nyāya#Nyāyabhāṣya#J2D##true#san",
+"urn:cts:sktlit:skt0001.nyaya002.J3D:#adhyāya.āhnika.sūtra#Nyāya#Nyāyavārttika#J3D##true#san"
+],
+
+"base_protocol_namespace_workPrefix": "urn:cts:sktlit:skt0001.nyaya002.",
+"base_protocol_imageArchiveName": "urn:cite2:nbh:",
+"relations_verb": "urn:cite2:dse:verbs.v1:appearsOn:",
+
+"siglum_to_sliced_img_fn_abbrv": {
+"J1D":"J1", "J2D":"J2", "J3D":"J3"
+},
+
+"witnesses_with_negatives": ["J1D", "J3D"],
+
+"regex_replacements_fn": "regex_replacements.py",
+
+"destroy_zero_space_word_separator": true,
+
+"browser_choice": "chrome",
+
+"renormalize": true,
+
+"git_push_changes": false
+}

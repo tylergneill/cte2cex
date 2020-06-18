@@ -1,0 +1,42 @@
+{
+"Brucheion_cex_folder_abs_path": "/Users/tyler/Git/Brucheion_TGN_experimental/cex",
+"cex_output_fn": "test.cex",
+"port_num": "7000",
+
+"input_folder_abs_path": "/Users/tyler/Dropbox/Documents/NBh_Project/Brucheion_workspace/cte2cex/tmp/input_cte",
+"output_folder_abs_path": "/Users/tyler/Dropbox/Documents/NBh_Project/Brucheion_workspace/cte2cex/tmp/output_cex",
+
+"input_files_individual_abs_paths": [
+
+"/Users/tyler/Desktop/test/gretil_1.txt",
+"/Users/tyler/Desktop/test/gretil_2.txt",
+"/Users/tyler/Desktop/test/somdev.txt"
+
+],
+
+"cex_catalog_info": [
+"urn:cts:sktlit:skt0001.lok001.G1E:#misc#Lokāyata#Tattvopaplavasiṃha#G1E##true#san",
+"urn:cts:sktlit:skt0001.lok001.G2E:#misc#Nyāya#Tattvopaplavasiṃha#G2E##true#san",
+"urn:cts:sktlit:skt0001.lok001.S1E:#misc#Nyāya#Tattvopaplavasiṃha#S1E##true#san"
+],
+
+"base_protocol_namespace_workPrefix": "urn:cts:sktlit:skt0001.lok001.",
+"base_protocol_imageArchiveName": "urn:cite2:nbh:",
+"relations_verb": "urn:cite2:dse:verbs.v1:appearsOn:",
+
+"siglum_to_sliced_img_fn_abbrv": {
+"G1E":"G1E", "G2E":"G2E", "S1E":"S1E"
+},
+
+"witnesses_with_negatives": [],
+
+"regex_replacements_fn": "regex_replacements.py",
+
+"destroy_zero_space_word_separator": true,
+
+"browser_choice": "chrome",
+
+"renormalize": true,
+
+"git_push_changes": false
+}

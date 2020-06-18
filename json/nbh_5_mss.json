@@ -1,0 +1,99 @@
+{
+"Brucheion_cex_folder_abs_path": "/Users/tyler/Git/Brucheion_TGN_experimental/cex",
+"cex_output_fn": "nbh_5_mss.cex",
+"port_num": "7000",
+
+"input_folder_abs_path": "/Users/tyler/Dropbox/Documents/NBh_Project/Brucheion_workspace/cte2cex/tmp/input_cte",
+"output_folder_abs_path": "/Users/tyler/Dropbox/Documents/NBh_Project/Brucheion_workspace/cte2cex/tmp/output_cex",
+
+"input_files_individual_abs_paths": [
+
+"/Users/tyler/Dropbox/Project_related_files/Nbh_5/Transcripts_NBh_5/Transcript_D1E_NBh_5.cte",
+
+"/Users/tyler/Dropbox/Project_related_files/Nbh_5/Transcripts_NBh_5/Final_Versions/Transcript_AwD_NBh_5_1.cte",
+"/Users/tyler/Dropbox/Project_related_files/Nbh_5/Transcripts_NBh_5/Final_Versions/Transcript_AwD_NBh_5_2.cte",
+"/Users/tyler/Dropbox/Project_related_files/Nbh_5/Transcripts_NBh_5/Final_Versions/Transcript_BaD_NBh_5_1.cte",
+"/Users/tyler/Dropbox/Project_related_files/Nbh_5/Transcripts_NBh_5/Final_Versions/Transcript_BaD_NBh_5_2.cte",
+"/Users/tyler/Dropbox/Project_related_files/Nbh_5/Transcripts_NBh_5/Final_Versions/Transcript_C3D_NBh_5_1.cte",
+"/Users/tyler/Dropbox/Project_related_files/Nbh_5/Transcripts_NBh_5/Final_Versions/Transcript_C3D_NBh_5_2.cte",
+"/Users/tyler/Dropbox/Project_related_files/Nbh_5/Transcripts_NBh_5/Final_Versions/Transcript_C7D_NBh_5_1.cte",
+"/Users/tyler/Dropbox/Project_related_files/Nbh_5/Transcripts_NBh_5/Final_Versions/Transcript_C7D_NBh_5_2.cte",
+"/Users/tyler/Dropbox/Project_related_files/Nbh_5/Transcripts_NBh_5/Final_Versions/Transcript_J2D_NBh_5_1.cte",
+"/Users/tyler/Dropbox/Project_related_files/Nbh_5/Transcripts_NBh_5/Final_Versions/Transcript_J2D_NBh_5_2.cte",
+"/Users/tyler/Dropbox/Project_related_files/Nbh_5/Transcripts_NBh_5/Final_Versions/Transcript_KuS_NBh_5_1.cte",
+"/Users/tyler/Dropbox/Project_related_files/Nbh_5/Transcripts_NBh_5/Final_Versions/Transcript_KuS_NBh_5_2.cte",
+"/Users/tyler/Dropbox/Project_related_files/Nbh_5/Transcripts_NBh_5/Final_Versions/Transcript_L1D_NBh_5_1.cte",
+"/Users/tyler/Dropbox/Project_related_files/Nbh_5/Transcripts_NBh_5/Final_Versions/Transcript_L1D_NBh_5_2.cte",
+"/Users/tyler/Dropbox/Project_related_files/Nbh_5/Transcripts_NBh_5/Final_Versions/Transcript_M2D_NBh_5_1.cte",
+"/Users/tyler/Dropbox/Project_related_files/Nbh_5/Transcripts_NBh_5/Final_Versions/Transcript_M2D_NBh_5_2.cte",
+"/Users/tyler/Dropbox/Project_related_files/Nbh_5/Transcripts_NBh_5/Final_Versions/Transcript_M3D_NBh_5.cte",
+"/Users/tyler/Dropbox/Project_related_files/Nbh_5/Transcripts_NBh_5/Final_Versions/Transcript_My1D_NBh_5_1.cte",
+"/Users/tyler/Dropbox/Project_related_files/Nbh_5/Transcripts_NBh_5/Final_Versions/Transcript_My2D_NBh_5_1.cte",
+"/Users/tyler/Dropbox/Project_related_files/Nbh_5/Transcripts_NBh_5/Final_Versions/Transcript_My2D_NBh_5_2.cte",
+"/Users/tyler/Dropbox/Project_related_files/Nbh_5/Transcripts_NBh_5/Final_Versions/Transcript_P2D_NBh_5_1.cte",
+"/Users/tyler/Dropbox/Project_related_files/Nbh_5/Transcripts_NBh_5/Final_Versions/Transcript_P2D_NBh_5_2.cte",
+"/Users/tyler/Dropbox/Project_related_files/Nbh_5/Transcripts_NBh_5/Final_Versions/Transcript_P4D_NBh_5_2.cte",
+"/Users/tyler/Dropbox/Project_related_files/Nbh_5/Transcripts_NBh_5/Final_Versions/Transcript_P5D_NBh_5_1.cte",
+"/Users/tyler/Dropbox/Project_related_files/Nbh_5/Transcripts_NBh_5/Final_Versions/Transcript_P5D_NBh_5_2.cte",
+"/Users/tyler/Dropbox/Project_related_files/Nbh_5/Transcripts_NBh_5/Final_Versions/Transcript_RDT_NBh_5_1.cte",
+"/Users/tyler/Dropbox/Project_related_files/Nbh_5/Transcripts_NBh_5/Final_Versions/Transcript_S1S_NBh_5_1.cte",
+"/Users/tyler/Dropbox/Project_related_files/Nbh_5/Transcripts_NBh_5/Final_Versions/Transcript_S1S_NBh_5_2.cte",
+"/Users/tyler/Dropbox/Project_related_files/Nbh_5/Transcripts_NBh_5/Final_Versions/Transcript_S2S_NBh_5_1.cte",
+"/Users/tyler/Dropbox/Project_related_files/Nbh_5/Transcripts_NBh_5/Final_Versions/Transcript_U1D_NBh_5_2.cte",
+"/Users/tyler/Dropbox/Project_related_files/Nbh_5/Transcripts_NBh_5/Final_Versions/Transcript_V1D_NBh_5_1.cte",
+"/Users/tyler/Dropbox/Project_related_files/Nbh_5/Transcripts_NBh_5/Final_Versions/Transcript_V1D_NBh_5_2.cte",
+"/Users/tyler/Dropbox/Project_related_files/Nbh_5/Transcripts_NBh_5/Final_Versions/Transcript_V4D_NBh_5_1.cte",
+"/Users/tyler/Dropbox/Project_related_files/Nbh_5/Transcripts_NBh_5/Final_Versions/Transcript_VrD_NBh_5_1.cte"
+
+],
+
+"cex_catalog_info": [
+
+"urn:cts:sktlit:skt0001.nyaya002.D1E:#adhyāya.āhnika.sūtra#Nyāya#Nyāyabhāṣya#D1E##true#san",
+
+"urn:cts:sktlit:skt0001.nyaya002.AwD:#adhyāya.āhnika.sūtra#Nyāya#Nyāyabhāṣya#AwD##true#san",
+"urn:cts:sktlit:skt0001.nyaya002.BaD:#adhyāya.āhnika.sūtra#Nyāya#Nyāyabhāṣya#BaD##true#san",
+"urn:cts:sktlit:skt0001.nyaya002.C3D:#adhyāya.āhnika.sūtra#Nyāya#Nyāyabhāṣya#C3D##true#san",
+"urn:cts:sktlit:skt0001.nyaya002.C7D:#adhyāya.āhnika.sūtra#Nyāya#Nyāyabhāṣya#C7D##true#san",
+"urn:cts:sktlit:skt0001.nyaya002.J2D:#adhyāya.āhnika.sūtra#Nyāya#Nyāyabhāṣya#J2D##true#san",
+"urn:cts:sktlit:skt0001.nyaya002.KuS:#adhyāya.āhnika.sūtra#Nyāya#Nyāyabhāṣya#KuS##true#san",
+"urn:cts:sktlit:skt0001.nyaya002.L1D:#adhyāya.āhnika.sūtra#Nyāya#Nyāyabhāṣya#L1D##true#san",
+"urn:cts:sktlit:skt0001.nyaya002.M2D:#adhyāya.āhnika.sūtra#Nyāya#Nyāyabhāṣya#M2D##true#san",
+"urn:cts:sktlit:skt0001.nyaya002.M3D:#adhyāya.āhnika.sūtra#Nyāya#Nyāyabhāṣya#M3D##true#san",
+"urn:cts:sktlit:skt0001.nyaya002.My1D:#adhyāya.āhnika.sūtra#Nyāya#Nyāyabhāṣya#My1D##true#san",
+"urn:cts:sktlit:skt0001.nyaya002.My2D:#adhyāya.āhnika.sūtra#Nyāya#Nyāyabhāṣya#My2D##true#san",
+"urn:cts:sktlit:skt0001.nyaya002.P2D:#adhyāya.āhnika.sūtra#Nyāya#Nyāyabhāṣya#P2D##true#san",
+"urn:cts:sktlit:skt0001.nyaya002.P4D:#adhyāya.āhnika.sūtra#Nyāya#Nyāyabhāṣya#P4D##true#san",
+"urn:cts:sktlit:skt0001.nyaya002.P5D:#adhyāya.āhnika.sūtra#Nyāya#Nyāyabhāṣya#P5D##true#san",
+"urn:cts:sktlit:skt0001.nyaya002.RDT:#adhyāya.āhnika.sūtra#Nyāya#Nyāyabhāṣya#RDT##true#san",
+"urn:cts:sktlit:skt0001.nyaya002.S1S:#adhyāya.āhnika.sūtra#Nyāya#Nyāyabhāṣya#S1S##true#san",
+"urn:cts:sktlit:skt0001.nyaya002.S2S:#adhyāya.āhnika.sūtra#Nyāya#Nyāyabhāṣya#S2S##true#san",
+"urn:cts:sktlit:skt0001.nyaya002.V1D:#adhyāya.āhnika.sūtra#Nyāya#Nyāyabhāṣya#V1D##true#san",
+"urn:cts:sktlit:skt0001.nyaya002.V4D:#adhyāya.āhnika.sūtra#Nyāya#Nyāyabhāṣya#V4D##true#san",
+"urn:cts:sktlit:skt0001.nyaya002.VrD:#adhyāya.āhnika.sūtra#Nyāya#Nyāyabhāṣya#VrD##true#san"
+
+],
+
+"base_protocol_namespace_workPrefix": "urn:cts:sktlit:skt0001.nyaya002.",
+"base_protocol_imageArchiveName": "urn:cite2:nbh:",
+"relations_verb": "urn:cite2:dse:verbs.v1:appearsOn:",
+
+"siglum_to_sliced_img_fn_abbrv": {
+"D1E":"D1E",
+"AwD":"Aw", "BaD":"Ba", "C3D":"C3", "C7D":"C7", "J2D":"J2", "KuS":"Ku", "L1D":"L1",
+"M2D":"M2", "M3D":"M3", "My1D":"My1", "My2D":"My2", "P2D":"P2", "P4D":"P4", "P5D":"P5",
+"RDT":"RD", "S1S":"S1", "S2S":"S2", "U1D":"U1", "V1D":"V1", "V4D":"V4", "VrD":"Vr"
+},
+
+"witnesses_with_negatives": [],
+
+"regex_replacements_fn": "regex_replacements.py",
+
+"destroy_zero_space_word_separator": true,
+
+"browser_choice": "chrome",
+
+"renormalize": true,
+
+"git_push_changes": false
+}
