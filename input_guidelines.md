@@ -17,6 +17,6 @@ Rules:
 Example Text:
 
 ~~~~
-(C3D\_089v9){C\4.1.1\C}manaso nantaraṃ pravṛttiḥ parīkṣitavyā tatra khalu yāvad dharmādharmāśrayaśarīrādi parīkṣitam sarvāsāṃ pravṛtteḥ parīkṣā i
-(C3D\_090r1)ty āha pravṛttir yathoktā tathā parīkṣiteti {C\4.1.2\C}pravṛtyanantarās tarhi doṣāḥ parīkṣyantām ity ata āha tathā doṣāḥ parīkṣitā iti buddhisamānā
+(C3D_089v9){C\4.1.1\C}manaso nantaraṃ pravṛttiḥ parīkṣitavyā tatra khalu yāvad dharmādharmāśrayaśarīrādi parīkṣitam sarvāsāṃ pravṛtteḥ parīkṣā i
+(C3D_090r1)ty āha pravṛttir yathoktā tathā parīkṣiteti {C\4.1.2\C}pravṛtyanantarās tarhi doṣāḥ parīkṣyantām ity ata āha tathā doṣāḥ parīkṣitā iti buddhisamānā
 ~~~~
