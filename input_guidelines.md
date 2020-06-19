@@ -10,9 +10,9 @@ Three types of elements:
 
 Rules:
 
-1. With exception of header material (which must be removed through regex replacements), one chapter identifier and one folio identifier are required before any text content.
+1. With exception of human-readable header material at the beginning of the transcript file (which the regex replacements can help remove), one chapter identifier and one folio identifier are required before any text content.
 2. Whitespace counts as text content and so should not be used for visual padding between elements.
-3. Chapter and folio identifiers must be formatted 100% consistently.
+3. Chapter and especially folio identifiers must be formatted 100% consistently. For example, in the default setup provided, folio identifiers are marked with parentheses, use underscore, and always include a line number, like "(C3D\_089v9)" or "(M3D\_100,4)", whereas chapter identifiers have curly brackets, like "{4.1.1}" or (in CTE) "{C\3.2.40\C}".
 
 Example Text:
 
