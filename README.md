@@ -18,7 +18,7 @@ Instructions:
 * Choose project name for output filename.
 * Supply static paths for individual input (e.g. CTE) files as well as output path (e.g., `Brucheion\cex`.
 * Prepare statis CEX catalog entries.
-* Update CTS protocol components as needed (see [Homer Multitext](https://www.homermultitext.org/hmt-doc/cite/texts/ctsoverview.html) and [cite-architecture.org](http://cite-architecture.org/cts/)).
+* Update CTS protocol components as needed (see [Homer Multitext](https://www.homermultitext.org/hmt-doc/cite/texts/ctsoverview.html) and [cite-architecture.org](http://cite-architecture.org/cts/) for more on CITE architecture).
 * Choose options for handling of zero-space word separator, additional negative images, orthography normalization, and so on.
 
 3. For recurring project use:
