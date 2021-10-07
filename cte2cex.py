@@ -10,7 +10,7 @@ import webbrowser
 import datetime
 import time
 from tqdm import tqdm
-import validation2
+# import validation2
 # from validate_structure import validate_structure
 # from validate_content import validate_content
 
@@ -18,9 +18,9 @@ import validation2
 for arg in sys.argv:
 	if ".json" in arg: 				# mandatory project config file
 		config_fn = arg
-		break 
-else: 
-	print "no project config file"
+		break
+else:
+	print("no project config file")
 	exit()
 do_validation = "-v" in sys.argv	# validation flag -v
 # force_proceed = "-f" in sys.argv
@@ -46,7 +46,7 @@ do_git_push = config["git_push_changes"]	# requires preexisting local Git reposi
 # import regex_replacements from separate .py file
 package = config["regex_replacements_fn"]
 if package[-3:] == ".py": package = package[:-3] # confirm .py, remove extension
-else: print "regex_replacements_fn not '.py'"; exit()
+else: print("regex_replacements_fn not '.py'"); exit()
 attribute = "regex_replacements" # list attribute to import from package, name fixed here
 regex_replacements = getattr(__import__(package, fromlist=[attribute]), attribute)
 
@@ -103,7 +103,8 @@ if do_full_update:
 	populate_input_folder()
 
 # (filenames should already be consistently symmetrical and alphabetical)
-input_fns = [os.path.join(input_path,fn) for fn in os.listdir(input_path) if fn != '.DS_Store']
+fns_to_skip = ['.DS_Store', '.gitkeep']
+input_fns = [os.path.join(input_path,fn) for fn in os.listdir(input_path) if fn not in fns_to_skip]
 input_fns.sort()
 
 # import pdb;pdb.set_trace()
@@ -111,12 +112,11 @@ input_fns.sort()
 
 # READ IN
 
-print "reading in files..."
+print("reading in files...")
 
 ctsdata_buffer = ''
 
 for fn in tqdm(input_fns):
-
 	file_data = open(fn, 'r').read()
 
 	# cleaning round 1 (regex_replacements[0]): eliminate unused material; light standardization
@@ -126,7 +126,7 @@ for fn in tqdm(input_fns):
 		file_data = re.sub(pattern, replacement, file_data, flags=re.MULTILINE)
 
 	if do_validation:
-		pass	
+		pass
 # 		print "validating structure of", fn
 # 		validation2.validate_structure(file_data)
 # 		print "validating content of", fn
@@ -163,27 +163,27 @@ for curr_identifier_or_content in identifiers_and_content[2:]:
 # 	import pdb;pdb.set_trace()
 
 	try:
-	
+
 		if curr_identifier_or_content == '...':
 			relations_buffer = relations_buffer + (prev_textual_identifier + '\t' + prev_object_identifier + '\n')
 
 		elif curr_identifier_or_content[0]=='{':
 			prev_textual_identifier = curr_identifier_or_content
-	
+
 		elif curr_identifier_or_content[0]=='(':
 			prev_object_identifier = curr_identifier_or_content
 # 			prev_object_identifier = re.findall("(.*?)[rv,]\d+\)", curr_identifier_or_content)[0] + ')'
 # 			import pdb;pdb.set_trace()
 
 	except IndexError:
-		print "curr_identifier_or_content: ", curr_identifier_or_content
+		print("curr_identifier_or_content: ", curr_identifier_or_content)
 		import pdb;pdb.set_trace()
 
 
 relations_buffer = relations_buffer[:-1] # exclude final newline
 relations_buffer = re.sub(r'[{}\(\)]', '', relations_buffer, flags=re.MULTILINE)
 
-print "processing relations..."
+print("processing relations...")
 
 # import pdb;pdb.set_trace()
 
@@ -216,7 +216,7 @@ for relation in tqdm(relations_buffer.split('\n')):
 	relations_buffer_cex = relations_buffer_cex + formatted_relation + '\n'
 
 relations_buffer_cex = relations_buffer_cex[:-1] # exclude final newline
-relations_buffer_cex = relations_buffer_cex.encode('utf-8')
+relations_buffer_cex = relations_buffer_cex
 
 
 # CTSDATA
@@ -226,7 +226,7 @@ for pattern, replacement in regex_replacements[2]:
 	if "_\d+" in pattern: pattern = pattern % sigla_regex
 	ctsdata_buffer = re.sub(pattern, replacement, ctsdata_buffer, flags=re.MULTILINE)
 
-print "processing ctsdata..."
+print("processing ctsdata...")
 
 ctsdata_buffer_cex = '#!ctsdata' + '\n'
 curr_witness = ''
@@ -261,13 +261,13 @@ ctscatalog_buffer = """#!ctscatalog
 urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
 """
 
-ctscatalog_buffer = ctscatalog_buffer + '\n'.join(x.encode('utf-8') for x in config["cex_catalog_info"])
+ctscatalog_buffer = ctscatalog_buffer + '\n'.join(x for x in config["cex_catalog_info"])
 
 # combine content
 cex_total_content = ('\n'*2).join([
 	ctscatalog_buffer,
 	ctsdata_buffer_cex,
-	relations_buffer_cex,	
+	relations_buffer_cex,
 ])
 
 
@@ -281,13 +281,13 @@ ctsdata_output_f.close()
 
 if do_full_update:
 	replace_cex()
-	time.sleep(2)	
+	time.sleep(2)
 	reload_cex()
 	if do_renormalize:
 		time.sleep(2)
 		renormalize()
 		time.sleep(10)
 	if do_git_push:
-	 	time.sleep(2)
-	 	push_changes()
+		time.sleep(2)
+		push_changes()
 		time.sleep(10)

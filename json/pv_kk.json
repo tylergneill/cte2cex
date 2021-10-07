@@ -1,0 +1,51 @@
+{
+"Brucheion_cex_folder_abs_path": "/Users/tyler/Git/Brucheion_tgn/cex",
+"cex_output_fn": "pv_kk.cex",
+"port_num": "7000",
+
+"input_folder_abs_path": "/Users/tyler/Dropbox/Docs/NBh_Project/Brucheion_workspace/cte2cex/tmp/input_cte",
+"output_folder_abs_path": "/Users/tyler/Dropbox/Docs/NBh_Project/Brucheion_workspace/cte2cex/tmp/output_cex",
+
+"input_files_individual_abs_paths": [
+
+"/Users/tyler/Dropbox/Docs/Indology_study/philosophy/Darśana_Primary_Work/Buddhist/Dharmakīrti/PV/PV_kk/PV_kk_composite.txt",
+
+"/Users/tyler/Dropbox/Docs/Indology_study/philosophy/Darśana_Primary_Work/Buddhist/Dharmakīrti/PV/PV_kk/Miyasaka/PV_kk_Miyasaka.txt",
+
+"/Users/tyler/Dropbox/Docs/Indology_study/philosophy/Darśana_Primary_Work/Buddhist/Dharmakīrti/PV/PV_kk/Miyasaka/Ono_source/2_resandhified/PV_kk_Ono.txt",
+
+"/Users/tyler/Dropbox/Docs/Indology_study/philosophy/Darśana_Primary_Work/Buddhist/Dharmakīrti/PV/PV_kk/Tosaki/PV_3_kk_Tosaki.txt",
+
+"/Users/tyler/Dropbox/Docs/Indology_study/philosophy/Darśana_Primary_Work/Buddhist/Dharmakīrti/PV/PV_kk/Pandeya/PV_kk_Pandeya.txt"
+
+],
+
+"cex_catalog_info": [
+
+"urn:cts:sktlit:skt0001.baud001.C1E:#misc#Bauddha#Pramāṇavārtika#C1E##true#san",
+"urn:cts:sktlit:skt0001.baud001.M1E:#misc#Bauddha#Pramāṇavārtika#M1E##true#san",
+"urn:cts:sktlit:skt0001.baud001.O1E:#misc#Bauddha#Pramāṇavārtika#M1E##true#san",
+"urn:cts:sktlit:skt0001.baud001.T1E:#misc#Bauddha#Pramāṇavārtika#T1E##true#san",
+"urn:cts:sktlit:skt0001.baud001.P1E:#misc#Bauddha#Pramāṇavārtika#P1E##true#san"
+],
+
+"base_protocol_namespace_workPrefix": "urn:cts:sktlit:skt0001.baud001.",
+"base_protocol_imageArchiveName": "urn:cite2:nbh:",
+"relations_verb": "urn:cite2:dse:verbs.v1:appearsOn:",
+
+"siglum_to_sliced_img_fn_abbrv": {
+"C1E":"C1E","M1E":"M1E","O1E":"O1E","P1E":"P1E", "T1E":"T1E"
+},
+
+"witnesses_with_negatives": [],
+
+"regex_replacements_fn": "regex_replacements.py",
+
+"destroy_zero_space_word_separator": true,
+
+"browser_choice": "chrome",
+
+"renormalize": true,
+
+"git_push_changes": false
+}

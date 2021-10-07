@@ -47,7 +47,7 @@ regex_replacements = [
 		(r'^(?!(\(%s_\d+[^\)]*?\))|({[^}]*?})).+', '...'),	# specific content details
 		(r'(\n\.\.\.){2,}', '\\1'),	# consecutive lines of content
 		(r'([rv])\d+\)', '\\1)'),	# object (folio) identifer line numbers
-		
+
 	],
 
 	# 2: format textual content for CEX !ctsdata block

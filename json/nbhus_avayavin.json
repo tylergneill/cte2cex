@@ -1,18 +1,17 @@
 {
-"Brucheion_cex_folder_abs_path": "/Users/tyler/Git/Brucheion_TGN_experimental/cex",
+"Brucheion_cex_folder_abs_path": "/Users/tyler/Dropbox/Git/Brucheion_tgn/cex",
 "cex_output_fn": "nbhus_avayavin.cex",
 "port_num": "7000",
 
-"input_folder_abs_path": "/Users/tyler/Dropbox/Docs/NBh_Project/Brucheion_workspace/cte2cex/tmp/input_cte",
-"output_folder_abs_path": "/Users/tyler/Dropbox/Docs/NBh_Project/Brucheion_workspace/cte2cex/tmp/output_cex",
+"input_folder_abs_path": "/Users/tyler/Dropbox/Git/cte2cex/tmp/input_cte",
+"output_folder_abs_path": "/Users/tyler/Dropbox/Git/cte2cex/tmp/output_cex",
 
 "input_files_individual_abs_paths": [
-
-"/Users/tyler/Dropbox/Documents/NBhūṣ_Research/textual_work/3_Transcription_Collation_Edition/edition/Transcript_CrE_NBhūṣ_104,6–154,15.txt",
-"/Users/tyler/Dropbox/Documents/NBhūṣ_Research/textual_work/3_Transcription_Collation_Edition/P1D/Transcript_P1D_NBhūṣ_104,6–154,15.txt",
-"/Users/tyler/Dropbox/Documents/NBhūṣ_Research/textual_work/3_Transcription_Collation_Edition/P2D/Transcript_P2D_NBhūṣ_104,6–154,15.txt",
-"/Users/tyler/Dropbox/Documents/NBhūṣ_Research/textual_work/3_Transcription_Collation_Edition/VS/Transcript_VS_NBhūṣ_104,6–151,5.txt",
-"/Users/tyler/Dropbox/Documents/NBhūṣ_Research/textual_work/3_Transcription_Collation_Edition/YE/Transcript_YE_NBhūṣ_104,6–154,15.txt"
+"/Users/tyler/Dropbox/Git/edit_nbhu_104-154/Transcript_CrE_NBhūṣ_104,6–154,20.txt",
+"/Users/tyler/Dropbox/Git/edit_nbhu_104-154/Transcript_P1D_NBhūṣ_104,6–154,20.txt",
+"/Users/tyler/Dropbox/Git/edit_nbhu_104-154/Transcript_P2D_NBhūṣ_104,6–154,20.txt",
+"/Users/tyler/Dropbox/Git/edit_nbhu_104-154/Transcript_VS_NBhūṣ_104,6–151,10.txt",
+"/Users/tyler/Dropbox/Git/edit_nbhu_104-154/Transcript_YE_NBhūṣ_104,6–154,20.txt"
 ],
 
 "cex_catalog_info": [
